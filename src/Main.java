@@ -9,6 +9,8 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
+
+        // Задание 1
     List<Integer>  nums = new ArrayList<>();
 
     nums.add(1);
