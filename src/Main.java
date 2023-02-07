@@ -31,7 +31,7 @@ public class Main {
 
     findMinMax(stream, comparator, consumer);
 
-    // Задание 2
+         // Задание 2
 
         int[] arr= {1,24,12};
         System.out.println(countEven(arr));
@@ -51,6 +51,7 @@ public class Main {
             minMaxConsumer.accept(null, null);
         }
     }
+
 
     public static long countEven (int[] arr){
         IntStream stream = Arrays.stream(arr);
